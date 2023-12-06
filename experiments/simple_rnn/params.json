@@ -1,0 +1,17 @@
+{
+    "model_version": "rnn",
+    "max_features": 20000,
+    "sequence_length": 600,
+    "h1_units": 64,
+    "h2_units": 32,
+    "l2_reg_lambda": 1e-2,
+    "embedding_size": 128,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "num_epochs": 10,
+    "early_stopping_patience": 10,
+    "dropout_rate": 0.1,
+    "sample_rate": 1.0,
+    "max_word_length": 60000,
+    "embeddings": "None"
+}

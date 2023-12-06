@@ -1,0 +1,17 @@
+{
+    "model_version": "mlp",
+    "max_features": 2500,
+    "sequence_length": 1024,
+    "h1_units": 256,
+    "h2_units": 128,
+    "l2_reg_lambda": 1e-3,
+    "embedding_size": 512,
+    "learning_rate": 0.001,
+    "batch_size": 3,
+    "num_epochs": 1,
+    "early_stopping_patience": 10,
+    "dropout_rate": 0.1,
+    "sample_rate": 1.0,
+    "max_word_length": 6000,
+    "embeddings": "None"
+}
